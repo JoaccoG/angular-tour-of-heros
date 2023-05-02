@@ -5,7 +5,7 @@ import { HEROES } from '../mock-heroes';
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
-  styleUrls: [],
+  styleUrls: ['./heroes.component.css'],
 })
 export class HeroesComponent {
   heroes: Hero[] = HEROES;
