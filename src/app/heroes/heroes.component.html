@@ -7,12 +7,3 @@
     </button>
   </li>
 </ul>
-
-<section *ngIf="selectedHero">
-  <h2>{{selectedHero.name | uppercase}} Details</h2>
-  <div>ID: {{selectedHero.id}}</div>
-  <div>
-    <label for="hero-name">Hero name: </label>
-    <input id="hero-name" [(ngModel)]="selectedHero.name" placeholder="name">
-  </div>
-</section>
